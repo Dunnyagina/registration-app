@@ -1,14 +1,12 @@
-import React, { useContext } from 'react'
-import  {useEffect, useState, useContext} from 'react'
-import{link, useNavigate} from 'react-router-dom'
+import React from 'react'
+import {useEffect, useState, useContext} from 'react'
+import {Link, useNavigate} from 'react-router-dom'
 
 function Header() {
     const navigate =useNavigate();
-    const {success, loading, user,} =useContext()
+    const {success, loading, user} = useContext()
   return (
-    <div>
-
-    </div>
+    <div>Header</div>
   )
 }
 
