@@ -2,7 +2,7 @@ import React,{useContext, useEffect, useState} from 'react';
 import{Link, useNavigate} from 'react-router-dom';
 
 function register() {
-    const navigate =useNavigate();
+    const navigate = useNavigate();
     const {success, loading, user}=useContext();
     const[username, setUsename] = useState("");
     const [email, setEmail] = useState();
